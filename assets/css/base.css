@@ -1,0 +1,130 @@
+
+:root{
+    
+    --color-pink:#ff589e;
+    --color-white:#fff;
+    --color-black:#1e1e1e;
+    --color-purple:#8060EB;
+    --color-text:#777777;
+    --color-gray:#F2F2FE;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+    font-family: "Raleway", sans-serif !important;
+}
+
+
+
+::selection {
+    background: #ff589e;
+    color: #fff;
+}
+
+/* button */
+.button{
+    text-decoration: none!important;
+    width:fit-content;
+    color:var(--color-white);
+    padding:12px 20px;
+    font-size: 13px;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    
+}
+
+@media (max-width:575.98px) {
+    .button{
+        font-size: 10px;
+    }
+}
+
+.button:hover{
+    cursor: pointer;
+    color:var(--color-white);
+}
+
+.button-pink{
+    background: var(--color-pink);
+}
+
+.button-pink:hover{
+    background: var(--color-purple);
+}
+
+.button-purple{
+    background:var(--color-purple);
+}
+
+.button-purple:hover{
+    background: var(--color-pink);
+}
+
+
+/* end button */
+
+.box-head{
+    margin: 0 auto;
+}
+
+/* inner-price */
+.inner-price{
+   padding:20px 0 13px 0;
+   width:80%;
+   margin: 5px auto 40px auto;
+   border-radius: 20px; 
+
+}
+/* end inner-price */
+
+
+.color-purple{
+    background:var(--color-purple);
+}
+
+.color-pink{
+    background:var(--color-pink);
+}
+
+/* icon-circle */
+
+.icon-circle{
+    background: url(../images/circle-dec.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    width: 70%;
+    height:32px;
+}
+
+
+
+.icon-circle-up{
+    position:absolute;
+    width: 70%;
+    height: 32px;
+    top:39%;
+    left: calc(200% / 3);
+}
+
+.icon-circle-down{
+    position:absolute;
+    width: 70%;
+    height: 32px;
+    top:45%;
+    left: calc(200% / 3);
+}
+
+@media (max-width:991.98px) {
+    .icon-circle{
+        display: none!important;
+    }
+}
+/* end icon-circle */
+
+
+.padding-70px{
+    padding-top: 70px !important;
+}
