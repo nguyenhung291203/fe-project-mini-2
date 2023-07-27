@@ -628,16 +628,19 @@
 
 .section-eight .inner-item .inner-image{
     overflow: hidden;
-    /* background-size: cover; */
-    height: 200px;
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
+    background-size: cover;
+    /* height: 200px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     margin-bottom: 30px;
+    width: 100%;
+    aspect-ratio: 370/220;
 }
 
 .section-eight .inner-item .inner-image img{
     background-size: cover;
     width: 100%;
+    object-fit: cover;
 }
 
 .section-eight .inner-item .inner-text{
